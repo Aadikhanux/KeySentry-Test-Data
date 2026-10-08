@@ -1,0 +1,51 @@
+﻿[
+    {
+        "file":  "fixtures/aws.js",
+        "keyType":  "AWS Access Key",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "fixtures/github.js",
+        "keyType":  "GitHub PAT",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "fixtures/github-fine-grained.js",
+        "keyType":  "GitHub Fine-grained PAT",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "fixtures/openai.js",
+        "keyType":  "OpenAI",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "fixtures/google.js",
+        "keyType":  "Google/Gemini",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "fixtures/generic.js",
+        "keyType":  "Generic Token",
+        "expectedFindings":  1,
+        "line":  2
+    },
+    {
+        "file":  "controls/clean.js",
+        "expectedFindings":  0
+    },
+    {
+        "file":  "controls/low-entropy.js",
+        "expectedFindings":  0
+    },
+    {
+        "file":  "controls/passwords.js",
+        "expectedFindings":  0,
+        "note":  "Password formats are not covered by the current detector."
+    }
+]
