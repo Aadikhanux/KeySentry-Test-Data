@@ -18,6 +18,7 @@
         "line":  2
     },
     {
+        //Test
         "file":  "fixtures/openai.js",
         "keyType":  "OpenAI",
         "expectedFindings":  1,
